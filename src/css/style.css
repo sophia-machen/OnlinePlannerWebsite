@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:medium|Lato');
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    width: 1000px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    width: 1000px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+h3 {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    width: 1000px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+body {
+    background-color: #2F4454;
+    margin: 0;
+}
+footer {
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    width: 1000px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #2F4454;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #2e151b;
+    z-index: 1;
+    right: 0px;
+}
+
+.dropdown-content a {
+    color: #2F4454;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    ul.topBar li.right,
+    ul.topBar li {float: none;}
+}
+.icon {
+    background: url(../img/ugly-selfie.jpg);
+    width: 30px;
+    height: 30px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.backImage {
+    height: 600px;
+    max-width: 100%;
+    opacity: 0.5;
+}
+.title {
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: -15px;
+}
+.phrase {
+    position: absolute;
+    top: 435px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 240px 0px;
+}
+.blocktext1 {
+    color: white;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.image {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigWords {
+    color: white;
+    text-align: justify;
+    line-height: 44px;
+}
+.blocktext2 {
+    color: white;
+    text-align: justify;
+}
+.section3 {
+    background-color: #DA7B93;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 240px;
+}
+.planning {
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    padding-top: 100px;
+}
+#box-container {
+    display: flex;
+    height: 400px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+#box-1 {
+    padding: 1% 0% 1% 10%;
+    width: 20%;
+}
+#box-2 {
+    padding: 1% 0% 1% 0%;
+    width: 20%;
+}
+#box-3 {
+    padding: 1% 0% 1% 0%;
+    width: 20%;
+}
+#box-4 {
+    padding: 1% 10% 1% 0%;
+    width: 20%
+}
+.pIcon {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pPhrase {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pWords {
+    font-size: 20px;
+    color: #c4c4c4;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
